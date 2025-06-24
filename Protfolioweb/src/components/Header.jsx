@@ -19,6 +19,7 @@ export default function Header() {
         <Link to="/" className="hover:text-green-400 transition">Home</Link>
         <Link to="/about" className="hover:text-green-400 transition">About</Link>
         <Link to="/projects" className="hover:text-green-400 transition">Projects</Link>
+        <Link to="/blog" className="hover:text-green-400 transition">Blog</Link>
 
        
 
@@ -46,6 +47,7 @@ export default function Header() {
         >
           {themeMode === 'dark' ? '☀️ Light' : '🌙 Dark'}
         </button>
+        
       </nav>
     </header>
   );
