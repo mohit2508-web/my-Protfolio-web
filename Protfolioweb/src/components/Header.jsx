@@ -33,10 +33,31 @@ export default function Header() {
           <FaCode className="text-lg" />
           LeetCode
         </a>
+         <a
+          href="https://www.hackerrank.com/profile/_2315001379"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-1 border px-4 py-1 rounded-full hover:bg-green-700 dark:hover:bg-green-700 hover:text-black text-sm font-medium transition"
+        >
+          <FaCode className="text-lg" />
+          HackerRank
+        </a>
+         <a
+          href="https://www.geeksforgeeks.org/user/mohitjado4gcf/?_gl=1*4bw3z*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwmenCBhA4EiwAtVjzmojFFVWTzJRR0YkmShuy7rKN5fVv_DC3UWfJbaA41xz43dcZ-PVZThoCSeIQAvD_BwE&gbraid=0AAAAAC9yBkAf8CnIfvrC_qCqhnQg0959L"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-1 border px-4 py-1 rounded-full hover:bg-green-700 dark:hover:bg-green-400 hover:text-black text-sm font-medium transition"
+        >
+          <FaCode className="text-lg" />
+          Gfg
+        </a>
+
+
+
 
         <Link
           to="/contact"
-          className="border px-4 py-1 rounded-full hover:bg-white dark:hover:bg-gray-800 hover:text-black dark:hover:text-white transition"
+          className="border px-4 py-1 rounded-full hover:bg-white dark:hover:bg-pink-800 hover:text-black dark:hover:text-white transition"
         >
           Contact
         </Link>
